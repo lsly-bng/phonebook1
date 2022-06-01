@@ -41,7 +41,7 @@ System.out.println(personList);
 		</tr>
 		<tr>
 			<td><a
-				href="./updateForm.jsp?id=<%=personList.get(i).getPersonId()%>">[수정폼]</a></td>
+				href="./updateForm.jsp?id=<%=personList.get(i).getPersonId()%>">[수정]</a></td>
 			<td><a
 				href="./delete.jsp?id=<%=personList.get(i).getPersonId()%>">[삭제]</a></td>
 		</tr>

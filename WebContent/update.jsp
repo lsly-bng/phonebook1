@@ -20,6 +20,7 @@ System.out.println(personVo);
 
 //PhoneDao의 personUpdate()를 이용해서 수정
 int count = phoneDao.personUpdate(personVo);
+System.out.println(count);
 
 //응답은 리스트로 리다이렉트 시킨다.
 //list.jsp 로 다시 요청한다.

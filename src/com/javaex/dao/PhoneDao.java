@@ -234,12 +234,12 @@ public class PhoneDao {
 
 			// 4.결과처리
 			while (rs.next()) {
-				int pid = rs.getInt("person_id");
+				int id = rs.getInt("person_id");
 				String name = rs.getString("name");
 				String hp = rs.getString("hp");
 				String company = rs.getString("company");
 
-				personVo = new PersonVo(pid, name, hp, company);
+				personVo = new PersonVo(id, name, hp, company);
 			}
 
 		} catch (SQLException e) {

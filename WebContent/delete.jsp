@@ -3,7 +3,6 @@
 
 <%@ page import="com.javaex.dao.PhoneDao"%>
 
-
 <%
 //PhoneDao 객체만들기
 PhoneDao phoneDao = new PhoneDao();
